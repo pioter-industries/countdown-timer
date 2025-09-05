@@ -6,21 +6,6 @@
     <title>Unity Web Player | SlimeyEscape</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <style>
-      body {
-        padding: 0;
-        margin: 0;
-        background-color: rgba(33, 37, 41);
-      }
-      #unity-container {
-        display: flex;
-        justify-content: center;
-      }
-      #unity-canvas {
-        width: auto !important;
-        height: 100vh !important;
-      }
-    </style>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -34,7 +19,7 @@
       <div id="unity-warning"> </div>
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
-        <button id="unity-fullscreen-button">Fullscreen</button>
+        <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">SlimeyEscape</div>
       </div>
     </div>
@@ -66,7 +51,7 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "game/Build";
+      var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WEBGL.loader.js";
       var config = {
         arguments: [],

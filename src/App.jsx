@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <div className="stars-background"></div>
       <div className="container">
-        <h2 className="description">Pecet timer 🎉</h2>
-        <Counter />
+        <iframe src="/countdown-timer/game/Build/index.html" width="960" height="600"></iframe>
+
       </div>
       <Footer />
     </div>
