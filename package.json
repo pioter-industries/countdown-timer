@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://piotrfijol.github.io/countdown-timer/",
+  "homepage": "https://pioter-industries.github.io/countdown-timer/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
