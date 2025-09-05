@@ -1,0 +1,35 @@
+.counter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3.5rem;
+    color: #84839C;
+
+    .digits-col {
+        font-size: 0.45rem;
+        font-weight: 700;
+        letter-spacing: 0.3em;
+    }
+
+    .label {
+        margin-top: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .counter {
+        gap: 2rem;
+
+        .digits-col {
+            font-size: .8rem;
+            letter-spacing: 0.3em;
+        }
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .counter {
+        margin-top: 6.5rem;
+    }
+}
